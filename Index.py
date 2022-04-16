@@ -55,7 +55,7 @@ class Product(Item):
     def __init__(self, title, calorific, cost):
         super().__init__(title)
        #присваеваем класс Number каллорийности и цене для проверки значений 
-        if Number(calorific) and Number(cost):
+        if calorific >=0 and Number(cost):
             self.calorific = calorific
             self.cost = cost
         else:
