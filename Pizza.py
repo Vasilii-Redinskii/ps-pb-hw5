@@ -118,21 +118,21 @@ class Pizza(Item):
         return self.get_pizza()
 
         
-# Создаем продукты с указанием названия, калорийности продукта и его себестоимости
-dough_product = Product('Тесто', 200, 20)
-tomato_product = Product('Помидор', 100, 50)
-cheese_product = Product('Сыр', 100, 120)
-peper_product = Product('Перец', 20, 5)
+# # Создаем продукты с указанием названия, калорийности продукта и его себестоимости
+# dough_product = Product('Тесто', 0, 20)
+# tomato_product = Product('Помидор', 100, 50)
+# cheese_product = Product('Сыр', 100, 120)
+# peper_product = Product('Перец', 20, 5)
 
-# Из продуктов создаем ингредиенты. Для каждого ингредиента указываем продукт, 
-# из которого он состоит и вес продукта
-dough_ingredient = Ingredient(dough_product, 200)
-tomato_ingredient = Ingredient(tomato_product, 100)
-cheese_ingredient = Ingredient(cheese_product, 100)
-peper_ingredient = Ingredient(peper_product, 10)
+# # Из продуктов создаем ингредиенты. Для каждого ингредиента указываем продукт, 
+# # из которого он состоит и вес продукта
+# dough_ingredient = Ingredient(dough_product, 200)
+# tomato_ingredient = Ingredient(tomato_product, 100)
+# cheese_ingredient = Ingredient(cheese_product, 100)
+# peper_ingredient = Ingredient(peper_product, 10)
 
-# Из ингредиентов создаем пиццу
-pizza_margarita = Pizza('Маргарита', [dough_ingredient, tomato_ingredient, cheese_ingredient, peper_ingredient])
+# # Из ингредиентов создаем пиццу
+# pizza_margarita = Pizza('Маргарита', [dough_ingredient, tomato_ingredient, cheese_ingredient, peper_ingredient])
 
-# Выводим экземпляр пиццы
-print(pizza_margarita)
+# # Выводим экземпляр пиццы
+# print(pizza_margarita)
