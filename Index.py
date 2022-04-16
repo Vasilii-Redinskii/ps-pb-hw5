@@ -30,13 +30,14 @@ class Number:
     def __init__(self, number):
         
         if Number.check_number(number):
-            self.__number = number
-        else:
             raise ValueError
+            
+        else:
+            self.__number = number
     
-    #@staticmethod
+    @staticmethod
     def check_number(number):
-        return number > 0
+        return number < 0
 
     @property
     def number(self):
